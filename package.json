@@ -1,11 +1,11 @@
 {
-  "name": "process-list",
-  "version": "2.0.0",
+  "name": "@aspectron/process-list",
+  "version": "2.0.1",
   "description": "Cross-platform method to receive the list of the launched processes",
   "main": "index.js",
   "scripts": {
     "test": "ava test/*.js && prebuild-ci",
-    "install": "prebuild-install || node-gyp rebuild"
+    "install": "prebuild-install || node-gyp configure && node-gyp rebuild"
   },
   "repository": {
     "type": "git",

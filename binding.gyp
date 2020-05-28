@@ -13,7 +13,9 @@
           "UNICODE",
           "_UNICODE "
         ],
-        "include_dirs":["C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\include"],
+        "include_dirs":[
+          "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\include",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.13.26128\\atlmfc\\include"],
         "sources": [
           "src/win/tasklist.cpp"
         ],
@@ -25,7 +27,8 @@
           },
            "VCLinkerTool": {
               "AdditionalLibraryDirectories": [
-                  "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\lib\\amd64"
+                  "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\lib\\amd64",
+                  "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.13.26128\\atlmfc\\lib\\x64"
               ]
             }
           }
