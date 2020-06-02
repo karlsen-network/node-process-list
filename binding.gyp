@@ -43,6 +43,10 @@
           "-std=c++0x",
           "-frtti"
         ]
+      }],["OS=='mac'", {
+        'xcode_settings': {
+          'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
+        }
       }]
     ]
   }]
